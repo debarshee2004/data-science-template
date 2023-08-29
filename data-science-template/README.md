@@ -1,6 +1,6 @@
-# name-of-the-project
+# Name of the Project
 
-## project-description
+## Project Description
 
 ## Project Organization
 
