@@ -1,7 +1,5 @@
 # Data Science Project Template
 
-![Data Science Template](https://raw.githubusercontent.com/debarshee2004/data-science-template/main/images/data-science-template-banner.png)
-
 Welcome to the Data Science Project Template repository! This template is designed to provide you with a structured foundation for your data science projects, helping you maintain consistency, organization, and best practices throughout your project lifecycle.
 
 Whether you're a beginner or an experienced data scientist, this template will assist you in setting up your projects quickly and efficiently. It includes a well-defined directory structure, placeholder files, and guidelines for each phase of a typical data science project.
