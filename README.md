@@ -68,5 +68,5 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 Happy data science project building! If you have any questions or suggestions, please don't hesitate to reach out.
 
-**Maintainer:** Debarshee Chakraborty
+**Maintainer:** Debarshee Chakraborty <br />
 **Contact:** debarsheechakraborty.11d@gmail.com
