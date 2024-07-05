@@ -16,17 +16,39 @@ Whether you're a beginner or an experienced data scientist, this template will a
 
 - **Version Control**: The repository comes ready with a `.gitignore` file to exclude commonly unnecessary files from version control. This helps maintain a clean and focused repository.
 
+```md
+├── Data Science Template <- Project Main Directory
+| |── api <- Consists of scripts which serialize the API calls and act as a endpoint facilitating for project functions.
+│ ├── data <- Data in different format
+| | ├── final <- The final, canonical data sets for training
+| | ├── processed <- The data which was processed, will be sorted into final
+| | ├── raw <- The original, immutable data dump
+| | ├── pipeline.py <- The file for data pipelines
+| | ├── reference.py <- The file for data reference
+│ ├── docs <- All Docs related to the Project/Application
+│ ├── models <- Models for the Project/Application
+│ ├── src <- All the source code for the project
+| | ├── features <- The final, canonical data sets for training
+| | ├── models <- The data which was processed, will be sorted into final
+| | ├── notebooks <- The source code for all the jupyter notebooks
+| | ├── visualization <- The source code for all the visualization
+| | ├── init.py <- The entry point of the project
+| | ├── data-processing.py <- The source code for all the data processing
+| | ├── test-model.py <- The source code for testing model
+| | ├── training-model.py <- The source code for training model
+```
+
 ## How to Use
 
 1. **Clone the Repository**: Start by cloning this repository into your local workspace using the following command:
-   
-   ```
+
+   ```sh
    git clone https://github.com/debarshee2004/data-science-template.git
    ```
 
 2. **Navigate to Project Directory**: Move into the project directory that was just cloned:
 
-   ```
+   ```sh
    cd data-science-template
    ```
 
@@ -34,7 +56,7 @@ Whether you're a beginner or an experienced data scientist, this template will a
 
 4. **Install Dependencies**: If using a virtual environment, install the required dependencies listed in the `requirements.txt` file:
 
-   ```
+   ```sh
    pip install -r requirements.txt
    ```
 
@@ -48,7 +70,7 @@ Whether you're a beginner or an experienced data scientist, this template will a
 
 9. **Version Control**: Initialize your project's Git repository and make your initial commit:
 
-   ```
+   ```sh
    git init
    git add .
    git commit -m "Initial commit"
@@ -68,5 +90,5 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 Happy data science project building! If you have any questions or suggestions, please don't hesitate to reach out.
 
-**Maintainer:** Debarshee Chakraborty <br />
+**Maintainer:** Debarshee Chakraborty <br/>
 **Contact:** debarsheechakraborty.11d@gmail.com
