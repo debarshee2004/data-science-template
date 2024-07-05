@@ -36,6 +36,12 @@ Whether you're a beginner or an experienced data scientist, this template will a
 | | ├── data-processing.py <- The source code for all the data processing
 | | ├── test-model.py <- The source code for testing model
 | | ├── training-model.py <- The source code for training model
+│ ├── test <- Testing the code of the project
+| | ├── test.py <- The code for testing the project
+│ ├── utils <- Utils for the project
+│ ├── .env <- Environmental Variables
+│ ├── Dockerfile <- To containerizing the application
+│ ├── requirements.txt <- All the required library for the project
 ```
 
 ## How to Use
