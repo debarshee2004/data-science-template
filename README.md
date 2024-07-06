@@ -60,9 +60,17 @@ cd data-science-template
 
 3. **Create a Virtual Environment (Optional)**: It's recommended to create a virtual environment to manage your project dependencies. Use the package manager of your choice (e.g., `venv` or `conda`) to create and activate the environment.
 
+**To activate**
+
 ```sh
-python -m venv env
-env\Scripts\Activate.ps1
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+
+**To deactivate**
+
+```sh
+deactivate
 ```
 
 4. **Install Dependencies**: If using a virtual environment, install the required dependencies listed in the `requirements.txt` file:
