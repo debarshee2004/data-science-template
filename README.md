@@ -48,23 +48,28 @@ Whether you're a beginner or an experienced data scientist, this template will a
 
 1. **Clone the Repository**: Start by cloning this repository into your local workspace using the following command:
 
-   ```sh
-   git clone https://github.com/debarshee2004/data-science-template.git
-   ```
+```sh
+git clone https://github.com/debarshee2004/data-science-template.git
+```
 
 2. **Navigate to Project Directory**: Move into the project directory that was just cloned:
 
-   ```sh
-   cd data-science-template
-   ```
+```sh
+cd data-science-template
+```
 
 3. **Create a Virtual Environment (Optional)**: It's recommended to create a virtual environment to manage your project dependencies. Use the package manager of your choice (e.g., `venv` or `conda`) to create and activate the environment.
 
+```sh
+python -m venv env
+env\Scripts\Activate.ps1
+```
+
 4. **Install Dependencies**: If using a virtual environment, install the required dependencies listed in the `requirements.txt` file:
 
-   ```sh
-   pip install -r requirements.txt
-   ```
+```sh
+pip install -r requirements.txt
+```
 
 5. **Replace Placeholder Files**: Begin replacing the placeholder files with your actual project files. Follow the directory structure to maintain organization.
 
@@ -76,11 +81,11 @@ Whether you're a beginner or an experienced data scientist, this template will a
 
 9. **Version Control**: Initialize your project's Git repository and make your initial commit:
 
-   ```sh
-   git init
-   git add .
-   git commit -m "Initial commit"
-   ```
+```sh
+git init
+git add .
+git commit -m "Initial commit"
+```
 
 10. **Start Working**: You're all set! Begin your data science project by iterating through the data analysis, modeling, and evaluation phases.
 
