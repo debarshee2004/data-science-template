@@ -23,13 +23,16 @@ Whether you're a beginner or an experienced data scientist, this template will a
 | | ├── final <- The final, canonical data sets for training
 | | ├── processed <- The data which was processed, will be sorted into final
 | | ├── raw <- The original, immutable data dump
-| | ├── pipeline.py <- The file for data pipelines
-| | ├── reference.py <- The file for data reference
+| | ├── pipeline.py <- The file for data pipelines from server or data base to the folders
+| | ├── reference.py <- The file for data reference of server or data base
 │ ├── docs <- All Docs related to the Project/Application
 │ ├── models <- Models for the Project/Application
+│ ├── reports <- All the reports for the project which will be shared in the team
+| | ├── documents <- Document reports for the Project/Application
+| | ├── figures <- Keep all the figure fof data visualization
 │ ├── src <- All the source code for the project
-| | ├── features <- The final, canonical data sets for training
-| | ├── models <- The data which was processed, will be sorted into final
+| | ├── features <- The source code related to feature creation and classification
+| | ├── models <- The source code for creating the machine learning model
 | | ├── notebooks <- The source code for all the jupyter notebooks
 | | ├── visualization <- The source code for all the visualization
 | | ├── init.py <- The entry point of the project
@@ -63,8 +66,15 @@ cd data-science-template
 **To activate**
 
 ```sh
+# For Python Virtual Environment
 python -m venv .venv
 .venv\Scripts\Activate.ps1
+```
+
+```sh
+# For Conda Virtual Environment
+conda env create -f environment.yml
+conda activate environment_name_here
 ```
 
 **To deactivate**
