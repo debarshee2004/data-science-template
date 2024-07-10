@@ -31,20 +31,19 @@ Whether you're a beginner or an experienced data scientist, this template will a
 | | ├── documents <- Document reports for the Project/Application
 | | ├── figures <- Keep all the figure fof data visualization
 │ ├── src <- All the source code for the project
+| | ├── data <- The source code related to data manipulation
 | | ├── features <- The source code related to feature creation and classification
 | | ├── models <- The source code for creating the machine learning model
 | | ├── notebooks <- The source code for all the jupyter notebooks
 | | ├── visualization <- The source code for all the visualization
-| | ├── init.py <- The entry point of the project
-| | ├── data-processing.py <- The source code for all the data processing
-| | ├── test-model.py <- The source code for testing model
-| | ├── training-model.py <- The source code for training model
+| | ├── main.py <- The entry point of the project
 │ ├── test <- Testing the code of the project
 | | ├── test.py <- The code for testing the project
 │ ├── utils <- Utils for the project
 │ ├── .env <- Environmental Variables
 │ ├── Dockerfile <- To containerizing the application
-│ ├── requirements.txt <- All the required library for the project
+│ ├── environment.yml <- All the required process for creating conda environment
+│ ├── requirements.txt <- All the required process for creating python environment
 ```
 
 ## How to Use
